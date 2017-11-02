@@ -185,7 +185,7 @@
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="MLU-s2-eQk" secondAttribute="height" multiplier="201:71" id="5xV-4c-SKd"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
                                                                 <state key="normal" title="0">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
