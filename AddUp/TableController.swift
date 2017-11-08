@@ -29,7 +29,7 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
     
     //# MARK: - tableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        tableView.backgroundColor = UIColor.clear
+        //tableView.backgroundColor = UIColor.clear   pour lopacite de la 2eme vue
         return Singleton.sharedInstance.arrayOfItems.count
     }
     
@@ -40,7 +40,7 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
         
         cell.textLabel?.textColor = UIColor.white
         cell.backgroundColor = UIColor.clear
-        cell.textLabel?.font = UIFont(name: "MetroBold", size: 32)
+        cell.textLabel?.font = UIFont(name: "MetroBold", size: 38)
         
         return cell
     }
